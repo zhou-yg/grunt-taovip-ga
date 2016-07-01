@@ -31,8 +31,6 @@ module.exports = function(grunt) {
       // Iterate over all specified file groups.
       this.files.forEach(function(f,i) {
 
-        console.log(f);
-
         var dest = f.dest;
         // Concat specified files.
         var src = f.src.filter(function(filepath) {
